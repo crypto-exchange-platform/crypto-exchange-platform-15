@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Iceland", sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+
+  color-scheme: light dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Iceland", sans-serif;
+
+}
+ 
