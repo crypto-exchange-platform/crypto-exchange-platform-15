@@ -35,7 +35,7 @@ const testimonials = [
     name: 'David S.',
     title: 'DeFi Enthusiast',
     quote: 'Their platform blends modern aesthetics with performance. 10/10.',
-    image: 'https://source.unsplash.com/random/80x80/?man,smile',
+    image: 'https://www.shutterstock.com/image-photo/portrait-young-investor-banker-workplace-260nw-2364566447.jpg',
   },
 ];
 
