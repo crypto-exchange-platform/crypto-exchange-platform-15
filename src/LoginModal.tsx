@@ -34,7 +34,7 @@ export const LoginModal: FC<LoginModalProps> = ({ onClose }) => {
 
   return (
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
-        <div className="bg-black to-purple-900 w-full max-w-md p-6 rounded-md shadow-lg relative">
+        <div className="bg-black/40 to-purple-900 w-full max-w-md p-6 rounded-md shadow-lg relative">
           <button
               onClick={onClose}
               className="absolute right-4 top-4 text-xl cursor-pointer"
@@ -62,7 +62,7 @@ export const LoginModal: FC<LoginModalProps> = ({ onClose }) => {
             {error && <div className="text-red-500 text-sm">{error}</div>}
             <button
                 type="submit"
-                className="w-full bg-[#00ffcc] text-white py-2 rounded hover:bg-gray-900 cursor-pointer"
+                className="w-full bg-blue-950/60 text-white py-2 rounded hover:bg-gray-900 cursor-pointer"
             >
               Log In
             </button>

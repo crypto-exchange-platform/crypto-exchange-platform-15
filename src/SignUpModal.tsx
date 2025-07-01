@@ -92,7 +92,7 @@ export const SignupModal: FC<SignupModalProps> = ({ onClose, onSignupSuccess }) 
   }; 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 overflow-auto">
-      <div className="bg-black w-full max-w-xl p-6 rounded-md shadow-lg relative">
+      <div className="bg-black/40 w-full max-w-xl p-6 rounded-md shadow-lg relative">
         <button
           onClick={onClose}
           className="absolute right-4 top-4 text-xl cursor-pointer"
@@ -188,7 +188,7 @@ export const SignupModal: FC<SignupModalProps> = ({ onClose, onSignupSuccess }) 
           )}
           <button
             type="submit"
-            className="w-full bg-[#00ffcc] text-white py-2 rounded col-span-full hover:bg-gray-900 cursor-pointer"
+            className="w-full bg-blue-950/60 text-white py-2 rounded col-span-full hover:bg-gray-900 cursor-pointer"
           >
             Sign Up
           </button>

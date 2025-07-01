@@ -206,8 +206,8 @@ export default function GlitchHero() {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden  text-white">
-      <canvas ref={canvasRef} className="fixed top-0 left-0 w-full h-full z-0" />
+<div className="relative w-full h-[100vh] overflow-hidden text-white">
+<canvas ref={canvasRef} className="absolute top-0 left-0 w-full h-full z-0" />
       <section className="absolute inset-0 flex flex-col items-center justify-center text-center z-10 pointer-events-none">
         <h1 className="text-4xl md:text-6xl mb-4 tracking-widest uppercase">Trade Crypto Instantly</h1>
         <p className="text-lg mb-6 pointer-events-auto  max-w-xl">

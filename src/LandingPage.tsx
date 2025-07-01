@@ -3,6 +3,12 @@ import { SignupModal } from "./SignUpModal";
 import { LoginModal } from "./LoginModal";
 import Header from "./Header";
 import GlitchHero from "./GlitchHero";
+import MarketSection from "./MarketSection";
+import TradeSection from "./TradeSection";
+import PortfolioSection from "./PortfolioSection";
+import ForexNewsSection from "./ForexNewsSection";
+import TestimonialsSection from "./Testimonials";
+import Footer from "./Footer";
 const LandingPage: FC = () => {
   const [modal, setModal] = useState<"login" | "signup" | null>(null);
 
@@ -23,23 +29,33 @@ const LandingPage: FC = () => {
           onLogin={() => setModal("login")}
           onSignup={() => setModal("signup")}
         />
-        <GlitchHero/>
+        <div>
+          <GlitchHero />
+        </div>
 
         <div id="markets">
+          <MarketSection />
         </div>
 
         <div id="trade">
+          {" "}
+          <TradeSection />
         </div>
 
         <div id="portfolio">
+          {" "}
+          <PortfolioSection />
         </div>
 
         <div id="news">
+          {" "}
+          <ForexNewsSection />
         </div>
-
+        <TestimonialsSection />
+        <Footer />
       </div>
     </>
   );
 };
 
-export default LandingPage; 
+export default LandingPage;
